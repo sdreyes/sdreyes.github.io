@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shelby Reyes > About</title>
+    <title>Shelby Reyes > Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-    <!-- Navigation bar -->
+    <!-- Navigation bar at the top -->
 
     <header>
         <div class="navbar">
@@ -37,20 +36,34 @@
 
     </div>
 
-    <!-- End of navigation bar -->
+    <!-- End of the navigation bar -->
 
     <div class="box">
 
-        <h1>About Me</h1>
+        <h1>Contact</h1>
 
         <div class="divider">
 
         </div>
         <div>
-            <p>
-                <img id="shelbypic" src="assets/images/shelby.jpg" alt="Picture of Shelby">
-                Hi! My name is Shelby and I'm just a nerd living in the Philly suburbs. Born and raised in Northern Virginia, I developed a love for programming in high school when I was specially selected for Computer Math classes. Now, I'm pursuing my dream of becoming a web developer by working my way through University of Pennsylvania's LPS Coding Bootcamp. Preschool Manager by day and a budding developer by night, I love all things food, video games, and prog rock! 
-            </p>
+            <form>
+                <label for="name">Name</label>
+                <br />
+                <input name="name" type="text" placeholder="John Smith" required>
+                <br />
+                <br />
+                <label for="email">Email</label>
+                <br />
+                <input name="email" type="email" placeholder="example@gmail.com" required>
+                <br />
+                <br />
+                <label for="message">Message</label>
+                <br />
+                <textarea name="message"></textarea>
+                <br />
+                <br />
+                <button>Submit</button>
+            </form>
         </div>
     </div>
 
