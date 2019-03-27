@@ -60,6 +60,33 @@
     <div class="jumbotron mb-0 blue-grey darken-4" id="portfolio">
         <div class="container">
             <div class="row">
+                <!-- Progressive Scraper -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/screenshots/progressivescraper.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4"><span class="project-title">Progressive Scraper</span></span>
+                        </div>
+                        <div class="card-action activator">
+                            <a class="blue-grey-text" href="https://progressive-scraper.herokuapp.com/" target="_blank">Deployed</a>   <a class="blue-grey-text" href="https://github.com/sdreyes/Progressive-Scraper" target="_blank">GitHub</a>
+                            <i class="material-icons right icon-link">more_vert</i>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Progressive Scraper</span>
+                            <p>
+                                Progressive Scraper is a web scraper that displays ten of the most recent progressive rock album reviews from <a target="_blank" href="http://www.progarchives.com/">Prog Archives</a>. Users can save reviews to their favorites list and leave comments on their saved reviews. Comments can be individually deleted, and articles can be deleted in batches. This is to fully exemplify the CRUD functionality.
+                            </p>    
+                            <p>
+                                This app uses Express in conjunction with Node.js to create the server. Cheerio and Axios scrapes the site and the targeted elements are stored in a Mongo database using Mongoose. Handlebars.js is the view engine and renders the JSON responses from the server. Bootstrap supplies most of the CSS. This application follows the MVC design pattern.
+                            </p>
+                            <p>
+                                Technologies used: MongoDB, Mongoose, Cheerio, Node.js, Express, Handlebars.js, jQuery, Bootstrap
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <!-- Cinemaphile -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="card sticky-action">
@@ -115,7 +142,7 @@
                     </div>
                 </div>
                 <!-- Friend Finder -->
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="card sticky-action">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/screenshots/friendfinder.jpg">
@@ -140,7 +167,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Bamazon -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="card sticky-action">
