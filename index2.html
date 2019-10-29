@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shelby Reyes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- jQuery uncompressed -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap complete CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Materialize compiled and minified CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Personal CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- <nav class="blue-grey darken-4">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo flow-text">Shelby Reyes</a>
+      <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="navbarlink white-text" href="#about">About</a></li>
+        <li><a class="navbarlink white-text" href="#portfolio">Portfolio</a></li>
+        <li><a class="navbarlink white-text" href="#contact">Contact</a></li>
+        <li><a class="navbarlink" href="https://github.com/sdreyes" target="_blank"><img
+              src="assets/images/icons/githubwhite.png"></a></li>
+        <li><a class="navbarlink" href="https://www.linkedin.com/in/shelbyreyes" target="_blank"><img
+              src="assets/images/icons/linkedinwhite.png"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="navbarlink" href="#about">About</a></li>
+    <li><a class="navbarlink" href="#portfolio">Portfolio</a></li>
+    <li><a class="navbarlink" href="#contact">Contact</a></li>
+    <li><a class="navbarlink" href="https://github.com/sdreyes" target="_blank">GitHub</a></li>
+    <li><a class="navbarlink" href="https://www.linkedin.com/in/shelbyreyes" target="_blank">LinkedIn</a></li>
+  </ul> -->
+  <div class="jumbotron mb-0 blue-grey lighten-5" id="about">
+    <div class="container">
+      <div class="row valign-wrapper">
+        <div class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12">
+          <h3>Shelby Reyes</h3>
+          <h5>Full Stack Developer</h5>
+          <p class="mt-3">I'm a MERN stack developer living in the Philly 'burbs. My love of coding started early,
+            styling LiveJournal layouts in the early 2000s. Now, I have a passion for creating fully dynamic web apps.
+          </p>
+          <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white m-3"
+            href="assets/Shelby_Reyes_Resume.pdf" target="_blank">
+              <i class="material-icons left">arrow_forward</i>
+            View Portfolio
+          </a>
+          <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white m-3"
+            href="assets/Shelby_Reyes_Resume.pdf" target="_blank">
+              <i class="material-icons left">file_download</i>
+            Download Resume
+          </a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-xs-12">
+          <img class="responsive-img" src="assets/images/shelbyreyes.jpg" alt="A picture of Shelby">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="jumbotron mb-0 blue-grey darken-4" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <!-- Beadli -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/beadli.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Beadli</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="http://bead.li/" target="_blank">Deployed</a> <a class="blue-grey-text"
+                href="https://github.com/SamTaub/project-3" target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Beadli</span>
+              <p>
+                Co-developed with a team of three others, Beadli is a MERN-stack app that allows users to create, share,
+                and browse pixel designs intended for fuse bead crafting.
+              </p>
+              <p>
+                My contributions to the project largely include the implementations of user authentication, bitmap image
+                URI creation, and dynamic rendering of data. This app uses React to handle the view and functionality,
+                Express and Node for server-side API routing, and MongoDB for data storage. Passport.js authenticates
+                user login credentials. This application follows the MVC design pattern.
+              </p>
+              <p>
+                Technologies used: MongoDB, Express, React, Node, Mongoose, Passport.js, Bitmap.js, JavaScript,
+                Bootstrap, CSS3, and HTML5.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Google Books -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/librarybuilder.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Library Builder</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://google-books-sdreyes.herokuapp.com/" target="_blank">Deployed</a>
+              <a class="blue-grey-text" href="https://github.com/sdreyes/Library-Builder" target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Library
+                Builder</span>
+              <p>
+                Library Builder is a MERN-stack app that allows users to search for and save books of interest through
+                Google Books API.
+              </p>
+              <p>
+                This app uses React to handle the view and functionality, Express and Node for server-side API routing,
+                and MongoDB for storing the user's saved books.
+              </p>
+              <p>
+                Technologies used: MongoDB, Express, React, Node, Mongoose, Bootstrap, Google Books API
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Clicky Game -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/clickygame.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Michael Scott
+                  Game</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://sdreyes.github.io/Michael-Scott-Game/"
+                target="_blank">Deployed</a> <a class="blue-grey-text" href="https://github.com/sdreyes/clicky-game"
+                target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Michael Scott
+                Game</span>
+              <p>
+                The Michael Scott Clicky Game is a game where you... well, click! Click on images to earn points, but
+                don't click on any
+                more than once! You win when you've clicked all 12 images exactly once.
+              </p>
+              <p>
+                This app uses React to handle the view and functionality.
+              </p>
+              <p>
+                Technologies used: React, Bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Progressive Scraper -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/progressivescraper.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Progressive
+                  Scraper</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://progressive-scraper.herokuapp.com/" target="_blank">Deployed</a>
+              <a class="blue-grey-text" href="https://github.com/sdreyes/Progressive-Scraper" target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Progressive
+                Scraper</span>
+              <p>
+                Progressive Scraper is a web scraper that displays ten of the most recent progressive rock album reviews
+                from <a target="_blank" href="http://www.progarchives.com/">Prog Archives</a>. Users can save reviews to
+                their favorites list and leave comments on their saved reviews. Comments can be individually deleted,
+                and articles can be deleted in batches. This is to fully exemplify the CRUD functionality.
+              </p>
+              <p>
+                This app uses Express in conjunction with Node.js to create the server. Cheerio and Axios scrapes the
+                site and the targeted elements are stored in a Mongo database using Mongoose. Handlebars.js is the view
+                engine and renders the JSON responses from the server. Bootstrap supplies most of the CSS. This
+                application follows the MVC design pattern.
+              </p>
+              <p>
+                Technologies used: MongoDB, Mongoose, Cheerio, Node.js, Express, Handlebars.js, jQuery, Bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Cinemaphile -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/cinemaphile.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Cinemaphile</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://cinemaphile.herokuapp.com/" target="_blank">Deployed</a> <a
+                class="blue-grey-text" href="https://github.com/sdreyes/Cinemaphile" target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i
+                  class="material-icons right">close</i>Cinemaphile</span>
+              <p>
+                Co-developed with 3 other team members, Cinemaphile is a dynamic web application that allows users to
+                search for movies and store them in lists they can refer to. Cinemaphile uses Node.js and Express.js for
+                the server and MySQL with Sequelize for data storage. Passport.js authenticates user login credentials.
+                This application follows the MVC design pattern.
+              </p>
+              <p>
+                My contributions to the project include building the Express server and routes that respond to get,
+                post, put, and delete requests. I implemented Handlebars.js as our view engine. I also integrated
+                Passport.js for log-in validation.
+              </p>
+              <p>
+                Technologies used: MySQL, Sequelize, Node.js, Express.js, Handlebars.js, Passport.js, jQuery, and
+                Bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Eat-Da-Burger -->
+        <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/screenshots/burger.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4"><span class="project-title">Eat-Da-Burger</span></span>
+                        </div>
+                        <div class="card-action activator">
+                            <a class="blue-grey-text" href="https://eat-da-burger-sdreyes.herokuapp.com/" target="_blank">Deployed</a>   <a class="blue-grey-text" href="https://github.com/sdreyes/Burger" target="_blank">GitHub</a>
+                            <i class="material-icons right icon-link">more_vert</i>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Eat-Da-Burger</span>
+                            <p>
+                                Eat-Da-Burger is a minimalistic web application that logs the burgers you eat.
+                            </p>    
+                            <p>
+                                This app uses Express.js in conjunction with Node.js to create a server that responds to get, post, and put requests. This application follows the MVC design pattern with a homemade ORM. Node and MySQL query and route the data and Handlebars.js generates the HTML. Bootstrap supplies most of the CSS.
+                            </p>
+                            <p>
+                                Technologies used: MySQL, JavaScript, Node.js, Express.js, Handlebars.js, jQuery, and Bootstrap
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+        <!-- Friend Finder -->
+        <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/screenshots/friendfinder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4"><span class="project-title">Friend Finder</span></span>
+                        </div>
+                        <div class="card-action activator">
+                            <a class="blue-grey-text" href="https://friend-finder-sdreyes.herokuapp.com/" target="_blank">Deployed</a>   <a class="blue-grey-text" href="https://github.com/sdreyes/FriendFinder" target="_blank">GitHub</a>
+                            <i class="material-icons right icon-link">more_vert</i>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Friend Finder</span>
+                            <p>
+                                Friend Finder compares your survey answers to every other user that has taken the survey. It then returns a friend's name and photo with the answers most similar to yours!
+                            </p>    
+                            <p>
+                                The user needs to input their name and photo link to recieve a response from the server. The server will send back information about a person whose score answers most closely match the user's. This app uses Express.js in conjunction with Node.js to create a server that responds to get and post requests.
+                            </p>
+                            <p>
+                                Technologies used: JavaScript, Node.js, Express.js, jQuery, and Bootstrap
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+        <!-- Bamazon -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/bamazon.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Bamazon</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://drive.google.com/file/d/1SXSMxVB02-hCJbCcObaAJNZKxoyWug5h/view"
+                target="_blank">Demo</a> <a class="blue-grey-text" href="https://github.com/sdreyes/Bamazon"
+                target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Bamazon</span>
+              <p>
+                When run through Node.js, Bamazon communicates with a local MySQL database to keep inventory and sales
+                info up-to-date. There is both a customer view and a manager view.
+              </p>
+              <p>
+                Technologies used: JavaScript, Node.js, and MySQL
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- LIRI -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/liri.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">LIRI</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://drive.google.com/file/d/1B-8QTnAG-d0vYkL-YF7llmHI42mjuu2J/view"
+                target="_blank">Demo</a> <a class="blue-grey-text" href="https://github.com/sdreyes/LIRI"
+                target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>LIRI</span>
+              <p>
+                A command-line application that, when run through Node.js, can search Spotify, BandsInTown, or Open
+                Movie Database for any search term the user specifies. It also stores the user's most recent search term
+                so they can repeat a search.
+              </p>
+              <p>
+                Technologies used: JavaScript and Node.js
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- First Thing -->
+        <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/screenshots/firstthing.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4"><span class="project-title">First Thing</span></span>
+                        </div>
+                        <div class="card-action activator">
+                            <a class="blue-grey-text" href="https://patelpriyasunil.github.io/First-Thing/" target="_blank">Deployed</a>   <a class="blue-grey-text" href="https://github.com/patelpriyasunil/First-Thing" target="_blank">GitHub</a>
+                            <i class="material-icons right icon-link">more_vert</i>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>First Thing</span>
+                            <p>
+                                Co-developed with 3 other team members, this application is called "First Thing" because it includes everything you'll need "First Thing" in the morning to start the day! My contributions included retrieving, manipulating, and displaying data returned from AJAX calls to Google's Geolocation API and OpenWeatherMap's Weather API.
+                            </p>
+                            <p>
+                                Technologies used: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Firebase, and Moment.js.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+        <!-- Train Scheduler -->
+        <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/screenshots/train.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4"><span class="project-title">Train Scheduler</span></span>
+                        </div>
+                        <div class="card-action activator">
+                            <a class="blue-grey-text" href="https://sdreyes.github.io/Train-Scheduler/" target="_blank">Deployed</a>   <a class="blue-grey-text" href="https://github.com/sdreyes/Train-Scheduler" target="_blank">GitHub</a>
+                            <i class="material-icons right icon-link">more_vert</i>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Train Scheduler</span>
+                            <p>
+                                A page where users can input new trains to update a schedule table.
+                            </p>
+                            <p>
+                                Technologies used: HTML5, JavaScript, jQuery, Firebase, and Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+        <!-- Zelda Trivia Game -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/zeldatrivia.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Zelda Trivia
+                  Game</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://sdreyes.github.io/TriviaGame/" target="_blank">Deployed</a> <a
+                class="blue-grey-text" href="https://github.com/sdreyes/TriviaGame" target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Zelda Trivia
+                Game</span>
+              <p>
+                A timed trivia game with a Zelda theme!
+              </p>
+              <p>
+                Technologies used: HTML5, CSS3, Bootstrap, JavaScript, and jQuery.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Game of Thrones RPG
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card sticky-action">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/screenshots/rpg.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text text-darken-4"><span class="project-title">RPG Game</span></span>
+                        </div>
+                        <div class="card-action activator">
+                            <a class="blue-grey-text" href="https://sdreyes.github.io/unit-4-game/" target="_blank">Deployed</a>   <a class="blue-grey-text" href="https://github.com/sdreyes/unit-4-game" target="_blank">GitHub</a>
+                            <i class="material-icons right icon-link">more_vert</i>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>RPG Game</span>
+                            <p>
+                                A role playing game with a Game of Thrones theme. After choosing your character, you must defeat all three characters to win. Each character has different stats, so you must choose your opponents in the right order to win!
+                            </p>
+                            <p>
+                                Technologies used: HTML5, CSS3, JavaScript, jQuery, and Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+        <!-- Pokemon Hangman -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/screenshots/wordguessgame.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4"><span class="project-title">Pokemon Hangman</span></span>
+            </div>
+            <div class="card-action activator">
+              <a class="blue-grey-text" href="https://sdreyes.github.io/Word-Guess-Game/" target="_blank">Deployed</a>
+              <a class="blue-grey-text" href="https://github.com/sdreyes/Word-Guess-Game" target="_blank">GitHub</a>
+              <i class="material-icons right icon-link">more_vert</i>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i
+                  class="material-icons right icon-link">close</i>Pokemon Hangman</span>
+              <p>
+                A Hangman style game with Pokemon names. Hit spacebar to start the game, and then press letters on your
+                keyboard to guess the letters in the name of the Pokemon.
+              </p>
+              <p>
+                Technologies used: HTML5, JavaScript, and CSS3.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer black-text blue-grey lighten-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h3>Let's get in touch!</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white"
+            href="assets/Shelby_Reyes_Resume.pdf" target="_blank"><i
+              class="material-icons left">file_download</i>Download my Resume</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="assets/images/icons/phone.png">
+          <h5>(703) 909-0108</h5>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="assets/images/icons/email.png">
+          <h5><a class="black-text" href="mailto:shelbyreyes90@gmail.com">shelbyreyes90@gmail.com</a></h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container black-text text-center">
+        Copyright &copy; 2019 Shelby Reyes
+      </div>
+    </div>
+  </footer>
+  <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>
