@@ -5,6 +5,11 @@ body {
 
 }
 
+#social-links {
+  display: flex;
+  justify-content: center;
+}
+
 main {
   flex: 1 0 auto;
 }
