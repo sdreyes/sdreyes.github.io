@@ -76,10 +76,13 @@ a:hover {
   max-width: 300px;
 }
 
-/* @media (max-width: 767px) {
-  #profile-img {
-    width: 100px;
-  }
+.portfolio-image-preview {
+  max-width: 320px;
+}
+
+/* .portfolio-image-preview {
+  width: 400px;
+  height: auto;
 } */
 
 @media (max-width: 1014px) {
@@ -116,5 +119,12 @@ a:hover {
   }
   .profile-img {
     max-width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  #portfolio-image-preview {
+    width: 500px;
+    border: red;
   }
 }
