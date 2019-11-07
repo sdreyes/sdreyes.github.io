@@ -55,10 +55,10 @@
   </ul> -->
   <div class="d-flex" id="wrapper">
     <!-- Sidebar -->
-    <div class="teal darken-1" id="sidebar-wrapper">
+    <div class="blue-grey darken-3" id="sidebar-wrapper">
       <div class="list-group p-5 text-center">
         <h5 class="font-weight-bold mb-4 text-light">Shelby Reyes</h5>
-        <img src="assets/images/image-placeholder.png" alt="placeholder image" class="rounded-circle responsive-img mb-4" />
+        <img src="assets/images/shelbysmile.jpg" alt="placeholder image" class="rounded-circle responsive-img mb-4" />
         <p class="text-light mb-4">
             My name is Shelby and I'm a full-stack developer.
           </p>
@@ -118,12 +118,13 @@
           <div class="row">
             <div class="col">
               <h4 class="m-0 font-weight-bold"> > Projects</h4>
+              <hr />
             </div>
           </div>
           <!-- BEADLI -->
           <div class="row">
             <div class="col-12">
-                <h4 class="mt-0 p-0 text-center">Beadli</h4>
+              <h4 class="mt-0 p-0 text-center">Beadli</h4>
             </div>
             <div class="col-md-6 col-sm-12 text-center mb-3">
               <img class="responsive-img mb-3" src="assets/images/screenshots/beadli.jpg">
@@ -135,50 +136,73 @@
               </a>
             </div>
             <div class="col">
-              <p>
+              <p class="text-justify">
                 Co-developed with a team of three others, Beadli is a MERN-stack app that allows users to create, share, and browse pixel designs intended for fuse bead crafting.
               </p>
-              <p>
+              <p class="text-justify">
                 My contributions to the project largely include the implementations of user authentication, bitmap image URI creation, and dynamic rendering of data. This app uses React to handle the view and functionality, Express and Node for server-side API routing, and MongoDB for data storage. Passport.js authenticates user login credentials. This application follows the MVC design pattern.
               </p>
-              <p>
+              <p class="text-justify">
                 Technologies used: MongoDB, Express, React, Node, Mongoose, Passport.js, Bitmap.js, JavaScript, Bootstrap, CSS3, and HTML5.
               </p>
             </div>
             <!-- END BEADLI -->
-            <!-- LIBRARY BUILDER -->
-            <!-- END LIBRARY BUILDER -->
+            <div class="col-12">
+              <hr />
+            </div>
             <!-- PROGRESSIVE SCRAPER -->
+            <div class="col-12">
+              <h4 class="mt-0 p-0 text-center">Progressive Scraper</h4>
+            </div>
+            <div class="col">
+              <p class="text-justify">
+                Progressive Scraper is a web scraper that displays ten of the most recent progressive rock album reviews from <a target="_blank" href="http://www.progarchives.com/">Prog Archives</a>. Users can save reviews to their favorites list and leave comments on their saved reviews. Comments can be individually deleted, and articles can be deleted in batches. This is to fully exemplify the CRUD functionality.
+              </p>
+              <p class="text-justify">
+                This app uses Express in conjunction with Node.js to create the server. Cheerio and Axios scrapes the site and the targeted elements are stored in a Mongo database using Mongoose. Handlebars.js is the view engine and renders the JSON responses from the server. Bootstrap supplies most of the CSS. This application follows the MVC design pattern.
+              </p>
+              <p class="text-justify">
+                Technologies used: MongoDB, Mongoose, Cheerio, Node.js, Express, Handlebars.js, jQuery, Bootstrap
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 text-center mb-3">
+              <img class="responsive-img mb-3" src="assets/images/screenshots/progressivescraper.jpg">
+              <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white m-2" href="#" target="_blank">
+                Deployed
+              </a>
+              <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white m-2" href="#" target="_blank">
+                GitHub
+              </a>
+            </div>
             <!-- END PROGRESSIVE SCRAPER -->
-            <!-- Beadli -->
-            <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div class="card sticky-action">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/images/screenshots/beadli.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title grey-text text-darken-4"><span class="project-title">Beadli</span></span>
-                </div>
-                <div class="card-action activator">
-                  <a class="blue-grey-text" href="http://bead.li/" target="_blank">Deployed</a> <a
-                    class="blue-grey-text" href="https://github.com/SamTaub/project-3" target="_blank">GitHub</a>
-                  <i class="material-icons right icon-link">more_vert</i>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"><i
-                      class="material-icons right">close</i>Beadli</span>
-                  <p>
-                    Co-developed with a team of three others, Beadli is a MERN-stack app that allows users to create, share, and browse pixel designs intended for fuse bead crafting.
-                  </p>
-                  <p>
-                    My contributions to the project largely include the implementations of user authentication, bitmap image URI creation, and dynamic rendering of data. This app uses React to handle the view and functionality, Express and Node for server-side API routing, and MongoDB for data storage. Passport.js authenticates user login credentials. This application follows the MVC design pattern.
-                  </p>
-                  <p>
-                    Technologies used: MongoDB, Express, React, Node, Mongoose, Passport.js, Bitmap.js, JavaScript, Bootstrap, CSS3, and HTML5.
-                  </p>
-                </div>
-              </div>
-            </div> -->
+            <div class="col-12">
+              <hr />
+            </div>
+            <!-- LIBRARY BUILDER -->
+            <div class="col-12">
+                <h4 class="mt-0 p-0 text-center">Library Builder</h4>
+            </div>
+            <div class="col-md-6 col-sm-12 text-center mb-3">
+              <img class="responsive-img mb-3" src="assets/images/screenshots/librarybuilder.jpg">
+              <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white m-2" href="#" target="_blank">
+                Deployed
+              </a>
+              <a class="waves-effect waves-light btn-large blue-grey darken-4 text-white m-2" href="#" target="_blank">
+                GitHub
+              </a>
+            </div>
+            <div class="col">
+              <p class="text-justify">
+                Library Builder is a MERN-stack app that allows users to search for and save books of interest through Google Books API.
+              </p>
+              <p class="text-justify">
+                This app uses React to handle the view and functionality, Express and Node for server-side API routing, and MongoDB for storing the user's saved books.
+              </p>
+              <p class="text-justify">
+                Technologies used: MongoDB, Express, React, Node, Mongoose, Bootstrap, Google Books API
+              </p>
+            </div>
+            <!-- END LIBRARY BUILDER -->
             <!-- Google Books -->
             <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div class="card sticky-action">

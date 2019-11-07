@@ -26,6 +26,10 @@ a:hover {
   text-decoration: none;
 }
 
+hr {
+  border-top: 1px solid rgb(189, 196, 212);
+}
+
 /*!
  * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
  * Copyright 2013-2019 Start Bootstrap
@@ -76,15 +80,6 @@ a:hover {
   max-width: 300px;
 }
 
-.portfolio-image-preview {
-  max-width: 320px;
-}
-
-/* .portfolio-image-preview {
-  width: 400px;
-  height: auto;
-} */
-
 @media (max-width: 1014px) {
   #sidebar-wrapper {
     display: none;
@@ -119,12 +114,5 @@ a:hover {
   }
   .profile-img {
     max-width: 300px;
-  }
-}
-
-@media (max-width: 767px) {
-  #portfolio-image-preview {
-    width: 500px;
-    border: red;
   }
 }
