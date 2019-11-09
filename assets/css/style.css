@@ -43,6 +43,10 @@ hr {
   font-size: 14px;
 } */
 
+.text-seablue {
+  color: #00536d;
+}
+
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
@@ -51,6 +55,7 @@ hr {
   overflow-y: auto;
   top: 0;
   bottom: 0;
+  background-color: #00536d
   /* -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
@@ -78,6 +83,13 @@ hr {
 
 .profile-img {
   max-width: 300px;
+}
+
+@media (max-width: 768) {
+  .flexbox {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 1014px) {
