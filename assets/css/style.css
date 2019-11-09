@@ -1,21 +1,133 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
 }
 
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .icon-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .project-title {
-    font-size: .86em;
+  font-size: .86em;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid rgb(189, 196, 212);
+}
+
+.text-seablue {
+  color: #00536d;
+}
+
+.profile-img {
+  max-width: 300px;
+}
+
+.bg-seablue {
+  background-color: #00536d;
+}
+
+.bg-seablue:focus {
+  background-color: #00536d;
+}
+
+.bg-seablue:hover {
+  background-color: #006d8f;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  margin-left: -280px;
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  background-color: #00536d
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  width: 280px;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  margin-left: 0px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+/* @media (max-width: 768px) {
+  #about {
+    background-color: #00536d;
+    color: white;
+  }
+} */
+
+@media (max-width: 1014px) {
+  #sidebar-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 1015px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    margin-left: 280px;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+    margin-left: -280px;
+  }
+  .profile-img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cont {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  .profile-img {
+    max-width: 300px;
+  }
 }
