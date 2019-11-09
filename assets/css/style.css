@@ -38,6 +38,18 @@ hr {
   max-width: 300px;
 }
 
+.bg-seablue {
+  background-color: #00536d;
+}
+
+.bg-seablue:focus {
+  background-color: #00536d;
+}
+
+.bg-seablue:hover {
+  background-color: #006d8f;
+}
+
 /*!
  * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
  * Copyright 2013-2019 Start Bootstrap
@@ -76,6 +88,13 @@ hr {
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
 }
+
+/* @media (max-width: 768px) {
+  #about {
+    background-color: #00536d;
+    color: white;
+  }
+} */
 
 @media (max-width: 1014px) {
   #sidebar-wrapper {
